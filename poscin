@@ -1,5 +1,5 @@
 db <- read.csv("https://raw.githubusercontent.com/lzjuank/inspectorR/main/db.csv", sep = ";")
 login <- db[[1,3]] 
-if (identical(login, FALSE)) {
+if (identical(login, TRUE)) {
   stop("the script ends")
 }
